@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;900&display=swap');
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    background: linear-gradient(white , black);
+
+}
+.navbar {
+    position: fixed; /* La barre de navigation reste fixe en haut de la page */
+    top: 0; /* La barre de navigation touche le haut de la page */
+    left: 0; /* La barre de navigation commence depuis le coin supérieur gauche de la page */
+    width: 100%; /* La barre de navigation s'étend sur toute la largeur de la page */
+    padding: 10px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    align-items: center;
+    list-style: none;
+    border-bottom: solid rgb(0, 0, 0) 2px ;
+}
+.navbar img {
+    border-radius: 50%;
+    border: solid rgb(0, 0, 0) 2px;
+    height: 70px;
+}
+.navbar h2 {
+    color: black;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.me-img {
+    border: solid rgb(255, 255, 255) 3px ;
+    border-radius: 50%;
+    height: 200px;
+}
+.me {
+    background-color: black;
+    text-align: center;
+    margin: 100px 500px 10px 500px;
+    padding: 30px 0 30px 0;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border: solid white 2px;
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+.me h2 {
+    margin-top: 10px;
+}
+.other {
+    padding: 30px 0 30px 0;
+    background-color: black;
+    border: solid white 2px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 0 20px 0px rgb(255, 255, 255);
+    margin: 10px 500px 50px 500px;
+    text-align: center;
+}
+.other .IMG {
+    height: 200px;
+    border-radius: 30px;
+    border:solid white 2px;
+
+}
+.social {
+    border-top:solid white 2px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+.social h1 {
+    margin-top: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.social ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.social ul li {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px; 
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+.social ul li:hover {
+    transition: 1s;
+    background-color: rgba(146, 140, 140, 0.551);
+    
+}
+.social ul li img {
+    height: 50px;
+}
+
